@@ -1,0 +1,14 @@
+server:
+  port: 6500
+
+spring:
+  application:
+    name: xmess-config-server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://xmess-naming-server.com:6001/eureka}
+  instance:
+    appname: xmess-config-server
+    hostname: xmess-config-server.com

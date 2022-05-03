@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: xmess-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/xmessmain/xmess-config
+          username: xmessmain
+          password: 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
